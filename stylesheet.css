@@ -1,0 +1,42 @@
+.alles div{
+  box-shadow:2px 7px black;
+}
+.box{
+  margin:50px auto;
+  height:100px;
+  width:100px;
+  border:1px solid gray;
+}
+.red{
+  background-color:red;
+}
+/*
+.blue{
+  background-color:blue;
+}
+.green{
+  background-color:green;
+}
+*/
+.insidebox{
+  background-color:gray;
+  height:50px;
+  width:50px;
+  margin:10px auto;
+
+
+}
+.alles div:hover{
+  cursor:pointer;
+}
+.box:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+.insidebox:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+/*押すと押した階層だけ沈降するボタンをつくりたかった。
